@@ -1,4 +1,5 @@
 # Minecraft Server launcher
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFH-DEV1%2Fminecraft-server-launcher&env=NEXT_PUBLIC_SERVER_TOKEN,NEXT_PUBLIC_SERVER_ID,NEXT_PUBLIC_SERVER_IP,NEXT_PUBLIC_SERVER_NAME&project-name=minecraft-server-launcher&repository-name=minecraft-server-launcher)
 
 This is a Minestrator Minecraft server launcher built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The application provides real-time monitoring of a Minecraft server's status, usage statistics (CPU, RAM, Disk), and player activity.
 
