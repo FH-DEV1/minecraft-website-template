@@ -1,15 +1,15 @@
-# Minecraft Server launcher
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFH-DEV1%2Fminecraft-server-launcher&env=NEXT_PUBLIC_SERVER_TOKEN,NEXT_PUBLIC_SERVER_ID,NEXT_PUBLIC_SERVER_IP,NEXT_PUBLIC_SERVER_NAME&project-name=minecraft-server-launcher&repository-name=minecraft-server-launcher)
+# Minecraft website template
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFH-DEV1%2Fminecraft-website-template&env=NEXT_PUBLIC_SERVER_TOKEN,NEXT_PUBLIC_SERVER_ID,NEXT_PUBLIC_SERVER_IP,NEXT_PUBLIC_SERVER_NAME&project-name=minecraft-server-launcher&repository-name=minecraft-server-launcher)
 
-This is a Minestrator Minecraft server launcher built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The application provides real-time monitoring of a Minecraft server's status, usage statistics (CPU, RAM, Disk), and player activity.
+This is a Minestrator Minecraft website template built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The application provides real-time monitoring of a Minecraft server's status, usage statistics (CPU, RAM, Disk), and player activity.
 
 ## Features
 
-- **Real-time Server Monitoring**: Get live updates on server status, CPU, memory, and disk usage.
-- **User Interaction**: Start and stop the server with a toggle lever interface.
-- **Responsive Design**: Works well on both mobile and desktop devices using Tailwind CSS for styling.
-- **Dynamic Image Display**: View images from the server directory.
-- **Drawer Component**: Contains detailed server information and usage statistics.
+1. **Toggle Server State**: Click on the lever image to start or stop the server.
+2. **View Server Status**: The current server status (online/offline) is displayed prominently.
+3. **Monitor Resources**: The launcher shows CPU, RAM, and Disk usage as progress bars.
+4. **Player Information**: Displays the number of players currently online versus the maximum allowed.
+5. **Image Gallery**: Displays images stored in the public/images directory.
 
 ## Technologies Used
 
@@ -20,14 +20,14 @@ This is a Minestrator Minecraft server launcher built with **Next.js**, **TypeSc
 
 ## Getting Started
 
-To run the launcher using vercel click the Deploy button below :  
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFH-DEV1%2Fminecraft-server-launcher&env=NEXT_PUBLIC_SERVER_TOKEN,NEXT_PUBLIC_SERVER_ID,NEXT_PUBLIC_SERVER_IP,NEXT_PUBLIC_SERVER_NAME&project-name=minecraft-server-launcher&repository-name=minecraft-server-launcher)
+To run the template using vercel click the Deploy button below :  
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FFH-DEV1%2Fminecraft-website-template&env=NEXT_PUBLIC_SERVER_TOKEN,NEXT_PUBLIC_SERVER_ID,NEXT_PUBLIC_SERVER_IP,NEXT_PUBLIC_SERVER_NAME&project-name=minecraft-server-launcher&repository-name=minecraft-server-launcher)
 
 To run the launcher locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/minecraft-server-launcher.git
+   git clone https://github.com/yourusername/minecraft-website-template.git
    cd minecraft-server-launcher
    ```
 
@@ -57,20 +57,6 @@ To run the launcher locally, follow these steps:
    npm run build
    npm run start
    ```
-
-## Project Structure
-
-- **pages/**: Contains the main application page.
-- **components/**: Reusable UI components like Drawer, Button, and Progress.
-- **public/**: Static assets such as images and sound files.
-- **api/**: Contains server-side logic, such as fetching images.
-
-## Usage
-
-1. **Toggle Server State**: Click on the lever image to start or stop the server.
-2. **View Server Status**: The current server status (online/offline) is displayed prominently.
-3. **Monitor Resources**: The launcher shows CPU, RAM, and Disk usage as progress bars.
-4. **Player Information**: Displays the number of players currently online versus the maximum allowed.
 
 ## License
 
